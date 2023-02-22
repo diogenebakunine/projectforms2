@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 5px solid rgb(162, 157, 157);
+    width: 90%;
+    margin: 4% 5%;
+}
+
+.pa{
+    display: inline-block;
+    width: 100px;
+}
+.oinfo{
+    display: inline-block;
+    width: 250px;
+}
