@@ -4,7 +4,7 @@
 }
 
 .container{
-    border: 5px solid rgb(162, 157, 157);
+    border: 5px inset rgba(30, 30, 30, 0.4);
     width: 90%;
     margin: 4% 5%;
 }
@@ -16,4 +16,84 @@
 .oinfo{
     display: inline-block;
     width: 250px;
+}
+
+.conf{
+    margin: 2% 2.5%;
+    width: 95%;
+    line-height: 24px;
+}
+
+.container fieldset legend{
+    font-size: 22px;
+}
+
+fieldset{
+    padding: 8px;
+}
+
+.header{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.personel{
+    margin: 2% 2.5%;
+    width: 95%;
+}
+.container .personel .p{
+    display: inline-block;
+    width: 120px;
+    line-height: 27px;
+}
+
+.other{
+    margin: 2% 2.5%;
+    width: 95%;
+}
+.other h2{
+    font-size: 20px;
+    margin-left: 8%;
+}
+.other .section{
+    /* border: 2px solid #000; */
+    height: 100px;
+}
+.other .section #ent{
+    display: inline-block;
+    width: 300px;
+    line-height: 100px;
+}
+.other .section p{
+    float: left;
+    line-height: 100px;
+}
+.other .section ul{
+    margin-left: 19.25%;
+    list-style-type: none;
+    line-height: 25px;
+}
+.other .section #swl{
+    margin-top: 1%;
+}
+.other .section #sl{
+    display: inline-block;
+    width: 302px;
+}
+.agreement{
+    margin: 2% 2.5%;
+    width: 95%;
+}
+#ac{
+    width: 40%;
+    height: 200px;
+    border: 1px solid rgba(50, 50, 50, 0.4);
+}
+.mail{
+    margin: 2% 2.5%;
+    width: 95%;
+    line-height: 25px;
+}
+.iw{
+    text-decoration: underline;
 }

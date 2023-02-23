@@ -13,7 +13,7 @@
             <div class="header">
                 <h1>ABC Design Program Installation and Sales Agreement :)</h1>
             </div>
-                <div>
+                <div class="conf">
                 <fieldset>
                     <legend>Agreement Confirmation</legend>
                     <input type="radio" name="" id="">
@@ -25,80 +25,94 @@
                     <input type="reset" value="Clear Info" id="reset">
                 </fieldset>    
                 </div>
-            <div class="p">
+            <div class="personel">
                 <fieldset>
                     <legend>Personel Information</legend>
-                    <label for="">Form Security</label>
+                    <label for="" class="p">Form Security</label>
                     <br>
-                    <label for="" class="pa">ID</label>
+                    <label for="" class="p">ID</label>
                     <input type="text" placeholder="abcdpiase" disabled>
                     <br>
-                    <label for="" class="pa">Name</label>
+                    <label for="" class="p">Name</label>
                     <input type="text" placeholder="George">
                     <br>
-                    <label for="" class="pa">Last Name</label>
+                    <label for="" class="p">Last Name</label>
                     <input type="text" placeholder="Washington">
                     <br>
-                    <label for="" class="pa">Age</label>
+                    <label for="" class="p">Age</label>
                     <input type="number" min="2" max="100">
                     <br>
-                    <label for="" class="pa">Age</label>
+                    <label for="" class="p">Age</label>
                     <input type="email" placeholder="example@example.com">
                     <br>
-                    <label for="" class="pa">Choose photo</label>
-                    <br>
+                    <label for="" class="p">Choose photo</label>
                     <input type="file">
                 </fieldset> 
             </div>
-                <div>
+                <div class="other">
                     <fieldset>
                         <legend>Other Information</legend>
                         <h2>This section covers professional experience.</h2>
                         <br>
-                        <label for="" class="oinfo">Industry Entry Date</label>
-                        <input type="date" placeholder="gg.aa.yyyy">
+                        <div class="section">
+                            <label class="title" id="ent" for="begin">Industry Entry Date</label>
+                            <input type="date" name="Industry Entry Date" id="begin" max="2022-08-02">
+                        </div>                    
                         <br>
-                        
-                        <ul>
-                            <il>
-                                <label for="" class="exp">Industry Experience</label>
-                                <input type="radio">1-5 Years
-                            </il>
-                            <br>
-                            <il>
-                                <label for="" class="exp">Industry Experience</label>
-                                <input type="radio">6-10 Years
-                            </il>
-                            <br> 
-                            <il>
-                                <label for="" class="exp">Industry Experience</label>
-                                <input type="radio">11-15 Years
-                            <il>
-                            <br> 
-                            <il><label for="" class="exp">Industry Experience</label>
-                                <input type="radio">15 or Higher
-                            </il> 
-                        </ul>   
-                    </fieldset>
-                </div>
-                <div>
-                    <fieldset>
-                        <legend>Agreement Copy</legend>
-                        <textarea name="lorem" id="" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, culpa temporibus? Ipsam officiis et, earum tempore quod veniam commodi qui reiciendis nemo fugiat similique deleniti hic maxime optio repellendus accusantium eum ad quam. Eveniet tempora tenetur aliquam autem reprehenderit ipsam consectetur delectus dicta! Similique voluptatum tempora libero et blanditiis accusantium soluta consectetur in. Maiores, impedit. Fuga dicta similique, molestias consequatur fugiat pariatur voluptas qui quos laboriosam sint atque delectus architecto nam, molestiae aperiam amet incidunt explicabo ex sequi, nemo non minima. Ipsa quia soluta sunt doloremque, corporis sed asperiores tempora numquam saepe debitis veritatis est. Assumenda natus necessitatibus cupiditate ab?</textarea>
-                    </fieldset>
-                </div>
-                <div>
-                    <fieldset>
-                        <legend>Maling list</legend>
-                        <label for="">I accept to get added to the mailing list.</label>
-                        <input type="radio">
-                        <br>
-                        <label for="">I do not accept to get added to the mailing list.</label>
-                        <input type="radio">
-                    </fieldset>
-                </div>
-            
-        </div>
-    </div>   
+                        <div class="section">
+                            <p class="title">Industry Experience</p>
+                            <ul>
+                                <li>
+                                    <input type="radio" name="Experience" id="jr" value="Junior">
+                                    <label for="jr">1-5 Years</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="Experience" id="mid" value="Mid">
+                                    <label for="mid">6-10 Years</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="Experience" id="senior" value="Senior">
+                                    <label for="senior">11-15 Years</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="Experience" id="pro" value="Professional">
+                                    <label for="pro">15 or higher</label>
+                                </li>
+                            </ul>              
+                        </div>
+                    <<br>
+                    <div class="section">
+                        <p id="sl">Software Languages</p>
+                        <select name="Software Languages" id="swl" multiple>
+                            <option value="C#">C#</option>
+                            <option value="PHP">PHP</option>
+                            <option value="Java">Java</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Python">Python</option>
+                            <option value="C++">C++</option>
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                        </select>     
+                    </div>                                            
+                </fieldset>
+            </div>
+            <div class="agreement">
+                <fieldset>
+                    <legend>Agreement Copy</legend>
+                    <textarea name="copy" id="ac" disabled>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, harum architecto nobis corporis quis esse quos laboriosam totam in, earum consectetur facere, iure ut. Alias reprehenderit accusamus amet vel, perspiciatis quos necessitatibus voluptatibus exercitationem nostrum maiores. Quas rem eius rerum eum enim amet deserunt quod itaque voluptatem sapiente laborum provident ipsam voluptas, possimus ullam fugit harum consectetur eos. Laborum blanditiis possimus quas ratione dolorum exercitationem molestias eius ab doloremque officiis culpa nihil molestiae sapiente, facere minima cumque ducimus atque animi unde, ad fuga? Libero ipsam sit iure. Vel dolor maxime quis commodi explicabo nemo officia quo? Quas a animi eius iusto voluptatem accusantium. Unde, repudiandae esse eveniet fuga temporibus accusantium veniam libero harum impedit! Eligendi odit sit saepe, aut enim et pariatur autem tenetur recusandae exercitationem accusantium. Blanditiis, nesciunt. At est corrupti odit delectus distinctio quia a harum? Aut, rerum eius. Ipsam voluptate, nesciunt excepturi non molestiae dicta ab amet fugit odio modi suscipit harum natus ratione officia laboriosam iusto, vero aspernatur. Voluptate, ut, voluptatem ullam enim earum nihil voluptates nemo porro rem laborum qui incidunt reprehenderit nam dolorum eum fugit numquam perspiciatis quidem! Impedit, voluptatem accusantium. Corrupti quidem nulla molestiae labore recusandae ut. Aperiam maiores deserunt vel recusandae eligendi.</textarea>
+                </fieldset>
+            </div>
+            <div class="mail">
+                <fieldset>
+                    <legend>Mailing List</legend>
+                    <label for="mlista">I <span class="iw"><b>accept </b></span> to get added to the mailing list.</label>
+                    <input type="radio" name="mlist" id="mlista" required>
+                    <br>
+                    <label for="mlistr">I <span class="iw"><b>do not accept</b></span> to get added to the mailing list.</label>
+                    <input type="radio" name="mlist" id="mlistr">
+                </fieldset>
+            </div>
+        </form>
+    </div>    
 </body>
 </html>
